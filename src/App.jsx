@@ -1,14 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import { Nav } from './Components/Nav'
+import { Header } from './Components/Header'
+import { BookingForm } from './Components/BookingForm'
+import { Main } from './Components/Main'
+import { Footer } from './Components/Footer'
+import { Menu } from './Components/Menu'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    
+    <Nav />
+    <Main />
+    <Menu />
+    <Footer />
     </>
   )
 }
